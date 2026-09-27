@@ -16,7 +16,6 @@ Don't retell the diff file by file or pad it out. Rationale goes in the commit m
 Don't name a customer in a shared product repo or a public repo.
 Only big changes get headings, and only What / Why / Verification (still under ~15 lines).
 Written with Claude? Keep the "🤖 Generated with Claude Code" line.
-Full guide: vault 80_Internal/85_Infrastructure/GitHub PR Style Guide.md
 -->
 
 - 
