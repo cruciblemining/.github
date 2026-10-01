@@ -10,12 +10,14 @@ Body: 3–10 bullet lines, no headings. Start with the change itself, not "This 
   - What you checked, with numbers ("384 passed"). What you didn't check.
   - Merge conditions ("Do not merge before #6." / "Merging this changes nothing live.").
   - Related PRs in one line ("Follows #23."). Scope cuts in one line ("Not in this PR: …").
-  - Need something from the reviewer? One sentence, last line, one ask.
+  - Need something from the reviewer? One ask, last bullet, answerable in a word.
 
 Don't retell the diff file by file or pad it out. Rationale goes in the commit message or the vault.
 Don't name a customer in a shared product repo or a public repo.
 Only big changes get headings, and only What / Why / Verification (still under ~15 lines).
-Written with Claude? Keep the "🤖 Generated with Claude Code" line.
+Written with Claude? No "🤖 Generated with Claude Code" line. End with the trailers:
+  Co-Authored-By: Claude <model> <noreply@anthropic.com>
+  Claude-Session: <session url>
 -->
 
 - 
